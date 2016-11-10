@@ -40,3 +40,5 @@ And there you have it! You can now query your database to see what it holds!
 the right panel is where you can write and test queries, 
 and the results are displayed in the bottom panel.</li>
 </ul>
+
+http://sqlfiddle.com/#!9/047ea7/1
