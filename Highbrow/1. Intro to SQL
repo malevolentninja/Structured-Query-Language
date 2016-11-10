@@ -1,0 +1,20 @@
+Data is all around us, used in increasingly creative ways to drive both personal choices and business decisions.
+
+Your fitness tracking apps and wearable technology are gathering data on your nutrition, your activity and workouts, and even your sleep habits.
+Your favorite online shopping sites are showing you all the items available to purchase and what you might like to buy based on past purchases or similar users' purchases.
+Then there is the dating app on your smartphone showing potential matches based on your profile.
+
+
+How is this possible? Where does this information come from?
+
+Many companies today store a wealth of data related to the various parts of their business in databases.
+A database is a collection of interrelated information stored as objects such as tables, reports, and views. 
+It is organized in a way that facilitates processing of data to serve a specific business function.
+With the fitness tracking app, each day's step count is stored so that a user can view their progress over time.
+
+But how do we work with all this data? How can we view the data that is entered in a database? 
+
+One option, which we will be looking at, is SQL. SQL, which stands for Structured Query Language, is a query language that allows a user or another application to view and manipulate data. Like any other programming language, syntax and rules must be adhered to in order to perform tasks. This syntax is run on what’s known as a relational database management system; some common ones include Microsoft SQL Server, MS Access, and Oracle.
+In this course, we will be taking a high-level look at how data can be organized, displayed, and manipulated with SQL. 
+We will cover the basic commands of SQL and allow you to practice on your own in a free online SQL environment. 
+By the end of the course, you should be able to visualize how systems like online shopping searches work and how a list of available inventory matching your search criteria is viewable with a simple click of a button.
