@@ -1,0 +1,42 @@
+Let's begin by simply viewing a dataset. But why might we want to do this? 
+
+Well, perhaps you have a question you want to find the answer to. 
+If you are an online retailer, you may need to gather info on who your users are or determine what inventory is currently in stock. 
+If you are using a personal health tracking app, you might want to see how many steps you have taken each day or track how your weight loss goals are progressing. 
+This data is likely stored in a database.
+
+A database is made up of any number of tables composed of columns and rows similar to a spreadsheet. 
+The column names contain a label for the values to be stored, and a row is a record in that dataset. 
+With our online retailer, they may track their user info in a table (e.g. user id, , lastname, firstname, email, gender and data birth and active or not?).
+
+
+We can access this data by executing a query against a database with SQL. SQL is a standard language for accessing and manipulating databases. The following is the SQL syntax for viewing the Users table listed above:
+
+#SELECT * FROM Users;
+
+The SELECT is the most basic query in SQL—it allows you to view the records in the table specified.
+This statement can be run standalone in an editor such as SQL Developer. 
+The asterisk (*) in this statement, read aloud as “star,” indicates we want to view all the columns. 
+So this statement says we want to select all the columns from the Users table and have it displayed to us. 
+The semicolon is a statement terminator similar to a period at the end of a sentence.
+It signals the end of the statement. 
+It is not required in all database systems, but it is general good practice for readability.
+
+We can also limit the fields to view by listing out the column names specifically. 
+Here’s an example if we only wanted the first and last names in our Users table returned:
+
+#SELECT FirstName, LastName FROM Users;
+
+The result = it will only bring back the firstname and lastname of users from the table. 
+
+Note that the order of the fields in our query does not need to correspond to their order in the table, but the column name must match exactly.
+
+And there you have it! You can now query your database to see what it holds!
+
+<ul>Explore on your own with an SQL Fiddle of today’s lesson. 
+<li> SQL Fiddle provides a place to test your queries. </li>
+<li> You’ll notice three panels when you click the link. </li>
+<li> The left panel builds the database (which we have already done for you),
+the right panel is where you can write and test queries, 
+and the results are displayed in the bottom panel.</li>
+</ul>
